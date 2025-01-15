@@ -12,8 +12,10 @@ python manage.py runserver
 
 python manage.py startapp "my_app"
 
-Previamente debe crear la basededatos my_app
-Mysql> CREATE DATABASE my_app;
+* Previamente debe crear la basededatos my_app
+
+* Mysql> CREATE DATABASE my_app;
+
 python manage.py makemigrations
 
 python manage.py migrate
