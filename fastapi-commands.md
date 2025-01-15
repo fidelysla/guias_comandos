@@ -13,16 +13,23 @@
 	ctrl + shift + p
  	Python 3.10.0 ('.venv':venv) .\.venv\Scripts\python.exe
 
-## Make file `main.py`
+## Create file `main.py`
 
 ```
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 
 app = FastAPI()
 
+# @app.get('/')
+# def home():
+#   return "Hola Mundo"
+
 @app.get('/')
 def home():
-    return "Hola Mundo"
+    with open('static/index.html') as f:
+        content = f.read()
+    response = Response(content, media_type="text/html")
+    return response
 ```
 
 ## Run
