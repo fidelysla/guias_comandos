@@ -47,8 +47,12 @@ flet run [script]
 flet run /Users/JohnSmith/Documents/projects/flet-app
 ```
 
-> To run script with a name other than main.py, provide an absolute or a relative path to the file, for example:
+> To run script with a name other than `main.py`, provide an absolute or a relative path to the file, for example:
 
 ```
 flet run counter.py
+```
+
+```
+flet run my_other_app/counter.py
 ```
