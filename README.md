@@ -16,7 +16,7 @@ Basic Commands
 
 ## Flet
 
-[Flet Commands](https://github.com/fidelysla/guias_comandos/edit/main/flet-commands.md)
+[Flet Commands](https://github.com/fidelysla/guias_comandos/blob/main/flet-commands.md)
 
 ## GIT
 
