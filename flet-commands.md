@@ -56,3 +56,22 @@ flet run counter.py
 ```
 flet run my_other_app/counter.py
 ```
+
+## Run as a web app
+
+```
+flet run --web [script]
+```
+```
+flet run --web --port 8000 app.py
+```
+
+## Hot reload
+
+```
+poetry run flet run -d [script]
+```
+```
+poetry run flet run -d -r [script]
+```
+
