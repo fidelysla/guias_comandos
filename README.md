@@ -14,6 +14,10 @@ Basic Commands
 
 [Django Commands](https://github.com/fidelysla/guias_comandos/blob/main/django-commands.md)
 
+## Flet
+
+[Flet Commands](https://github.com/fidelysla/guias_comandos/edit/main/flet-commands.md)
+
 ## GIT
 
 [GIT Commands](https://github.com/fidelysla/guias_comandos/blob/main/git-commands.md)
